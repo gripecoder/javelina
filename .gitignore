@@ -1,0 +1,30 @@
+# DRM'd commercial corpus — 3.44 GB of vendor downloads, not ours to publish.
+javelin-samples/
+*.drmz
+*.DRMZ
+*.drmx
+*.drm
+*.javelin
+
+# Decrypted output of a paid title (40 MB), plus vendor reader PDFs.
+*.pdf
+
+# Vendor binaries, patched copies included. Never publish these.
+j3patched/
+*.dll
+*.exe
+*.incx
+DrumlinRast.orig.dll
+
+# Vendored capstone (57 files) — install it instead of vendoring it.
+py/
+
+# Scratch / build noise.
+tmp/
+__pycache__/
+*.pyc
+graphify-out/cache/
+
+# Big dumps produced by the RE work.
+*.bin
+values_plain.bin

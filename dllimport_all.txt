@@ -1,0 +1,16 @@
+﻿===== C:\Program Files (x86)\Javelin3\DCL.dll =====
+powershell.exe : Exception calling "GetCustomAttributes" with "1" argument(s): "Could not load type 
+At line:1 char:129
++ ... ew($false); & "$env:WINDIR\SysWOW64\WindowsPowerShell\v1.0\powershell ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Exception calli... not load type :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+'VoOPAsnQMby9ZwN3sA.Zy1PTKRbpTRLNN6xJy/DDDeGoHgplq722OVSe/VERjMafndRN2gGPtSd`1' from assembly 'DCL, Version=1.0.1.5, 
+Culture=neutral, PublicKeyToken=null'."
+At %USERPROFILE%\Documents\github\rea\mountainmaps\dllimport_all.ps1:8 char:23
++       foreach ($at in $m.GetCustomAttributes($false)) {
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TypeLoadException
+ 

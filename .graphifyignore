@@ -1,0 +1,9 @@
+# Vendored capstone bindings + headers dominate the graph with library symbols.
+# This repo is an RE workspace; index only our own scripts.
+py/
+tmp/
+__pycache__/
+*.drmz
+*.dll
+*.pdf
+*.bin

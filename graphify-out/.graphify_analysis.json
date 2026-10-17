@@ -1,0 +1,627 @@
+{
+  "communities": {
+    "0": [
+      "dump_strs",
+      "dump_strs_u16",
+      "get_capstone",
+      "incx_key",
+      "io",
+      "javelin_samples_fill",
+      "javelin_samples_fill_get",
+      "javelin_samples_fill_have",
+      "javelin_samples_fill_urls",
+      "javelin_samples_harvest",
+      "javelin_samples_harvest_collect",
+      "javelin_samples_harvest_consider",
+      "javelin_samples_harvest_get",
+      "javelin_samples_harvest_main",
+      "javelin_samples_harvest_save",
+      "json",
+      "math",
+      "os",
+      "probe_drmz",
+      "probe_drmz_decrypt",
+      "re",
+      "str_scan",
+      "str_scan_utf16_strings",
+      "urllib_error",
+      "urllib_request",
+      "zipfile"
+    ],
+    "1": [
+      "exception"
+    ],
+    "2": [
+      "matrix2",
+      "matrix2_bufs",
+      "matrix2_check",
+      "matrix2_crypto",
+      "matrix2_ct",
+      "matrix2_data",
+      "matrix2_fs",
+      "matrix2_modes",
+      "matrix2_target",
+      "mode_test2",
+      "mode_test2_cfkey2",
+      "mode_test2_crypto",
+      "mode_test2_ct",
+      "mode_test2_data",
+      "mode_test2_fs",
+      "mode_test2_keys",
+      "mode_test2_ks1",
+      "mode_test2_target",
+      "ref_crypto"
+    ],
+    "3": [
+      "auth_xrefs",
+      "auth_xrefs_u16",
+      "auth_xrefs_xrefs",
+      "bases",
+      "callsites",
+      "callsites_find_call_sites",
+      "callsites_rationale_6",
+      "cnt_dump",
+      "cnt_dump_dump_pe",
+      "exports",
+      "exports_parse_exports",
+      "exports_parse_exports_rva2off",
+      "hashlib",
+      "iat_find",
+      "patch_dll",
+      "patch_dll_i32",
+      "patch_dll_rel",
+      "pe_diag",
+      "pe_scan",
+      "pe_scan_pe_info",
+      "shutil",
+      "str_xrefs",
+      "str_xrefs_find_dword",
+      "str_xrefs_utf16le",
+      "struct",
+      "xrefs",
+      "xrefs_find_dword"
+    ],
+    "4": [
+      "aes_derived",
+      "aes_derived_cfkey2",
+      "aes_derived_cfkey2_32",
+      "aes_derived_crypto",
+      "aes_derived_ct",
+      "aes_derived_data",
+      "aes_derived_fs",
+      "aes_derived_iv0_32",
+      "aes_derived_iv1_32",
+      "aes_derived_iv2_32",
+      "aes_derived_iv32",
+      "aes_derived_ivs",
+      "aes_derived_key0_32",
+      "aes_derived_key32",
+      "aes_derived_keya",
+      "aes_derived_keyb",
+      "aes_derived_keyres_32",
+      "aes_derived_keys",
+      "aes_derived_target",
+      "aes_derived_trydec"
+    ],
+    "5": [
+      "key32_ivs",
+      "key32_ivs_blob",
+      "key32_ivs_cfkey2",
+      "key32_ivs_crypto",
+      "key32_ivs_ct",
+      "key32_ivs_data",
+      "key32_ivs_fs",
+      "key32_ivs_iv0",
+      "key32_ivs_iv32",
+      "key32_ivs_ivs",
+      "key32_ivs_ivusk",
+      "key32_ivs_key32",
+      "key32_ivs_keya",
+      "key32_ivs_keyb",
+      "key32_ivs_keyres",
+      "key32_ivs_keyusk",
+      "key32_ivs_target"
+    ],
+    "6": [
+      "ofb_d_test",
+      "ofb_d_test_cfkey2",
+      "ofb_d_test_crypto",
+      "ofb_d_test_ct",
+      "ofb_d_test_data",
+      "ofb_d_test_fs",
+      "ofb_d_test_iv0",
+      "ofb_d_test_iv32",
+      "ofb_d_test_key32",
+      "ofb_d_test_keya",
+      "ofb_d_test_keyb",
+      "ofb_d_test_keyres",
+      "ofb_d_test_keys",
+      "ofb_d_test_keyusk",
+      "ofb_d_test_ks1"
+    ],
+    "7": [
+      "aes_test",
+      "aes_test_add",
+      "aes_test_addiv",
+      "aes_test_candidates",
+      "aes_test_crypto",
+      "aes_test_ct",
+      "aes_test_data",
+      "aes_test_drumlindatax",
+      "aes_test_fs",
+      "aes_test_idstr",
+      "aes_test_ivs",
+      "aes_test_keycodestr",
+      "aes_test_keystream8",
+      "aes_test_xstr"
+    ],
+    "8": [
+      "blob_aes",
+      "blob_aes_blob",
+      "blob_aes_cfkey2",
+      "blob_aes_crypto",
+      "blob_aes_ct",
+      "blob_aes_data",
+      "blob_aes_fs",
+      "blob_aes_ivcands",
+      "blob_aes_keya",
+      "blob_aes_keyb",
+      "blob_aes_keycands",
+      "blob_aes_target"
+    ],
+    "9": [
+      "brute_phase",
+      "brute_phase_cfkey2",
+      "brute_phase_data",
+      "brute_phase_found",
+      "brute_phase_fs",
+      "brute_phase_iv32",
+      "brute_phase_key32",
+      "brute_phase_keya",
+      "brute_phase_keyb",
+      "brute_phase_maska",
+      "brute_phase_maskb",
+      "brute_phase_target"
+    ],
+    "10": [
+      "combo_test",
+      "combo_test_cfkey1",
+      "combo_test_cfkey2",
+      "combo_test_combos",
+      "combo_test_cpkey2",
+      "combo_test_ct",
+      "combo_test_data",
+      "combo_test_fs",
+      "combo_test_keya",
+      "combo_test_keyb",
+      "combo_test_keyres",
+      "combo_test_target"
+    ],
+    "11": [
+      "alt_test",
+      "alt_test_cands",
+      "alt_test_cfkey1",
+      "alt_test_cfkey2",
+      "alt_test_cpkey2",
+      "alt_test_ct",
+      "alt_test_data",
+      "alt_test_fs",
+      "alt_test_iv0",
+      "alt_test_keyres"
+    ],
+    "12": [
+      "cfb_test",
+      "cfb_test_cfkey2",
+      "cfb_test_crypto",
+      "cfb_test_ct",
+      "cfb_test_data",
+      "cfb_test_fs",
+      "cfb_test_iv32",
+      "cfb_test_key32",
+      "cfb_test_ks1",
+      "cfb_test_target"
+    ],
+    "13": [
+      "decrypt_final",
+      "decrypt_final_ct",
+      "decrypt_final_data",
+      "decrypt_final_eof",
+      "decrypt_final_fs",
+      "decrypt_final_key",
+      "decrypt_final_pt"
+    ],
+    "14": [
+      "values_dump",
+      "values_dump_data",
+      "values_dump_fs",
+      "values_dump_keya",
+      "values_dump_out",
+      "values_dump_pt",
+      "values_dump_vb"
+    ],
+    "15": [
+      "xor_test2",
+      "xor_test2_ct",
+      "xor_test2_data",
+      "xor_test2_fs",
+      "xor_test2_keya",
+      "xor_test2_keyb",
+      "xor_test2_vb"
+    ],
+    "16": [
+      "xor_test",
+      "xor_test_ct",
+      "xor_test_data",
+      "xor_test_fs",
+      "xor_test_keya",
+      "xor_test_keyb"
+    ],
+    "17": [
+      "aes_tables",
+      "aes_tables_make_te0",
+      "aes_tables_make_te0_rot"
+    ],
+    "18": [
+      "auth_click",
+      "auth_click_click_center",
+      "auth_click_find_aid"
+    ],
+    "19": [
+      "auth_click2",
+      "auth_click2_click",
+      "auth_click2_find_aid"
+    ],
+    "20": [
+      "argparse",
+      "capstone",
+      "check_stub",
+      "ctypes",
+      "drdis",
+      "drdis_dis",
+      "imports_dump",
+      "imports_dump_rva2off",
+      "incx_decode",
+      "open_init",
+      "read_mem",
+      "read_mem_processentry32",
+      "subprocess",
+      "sys"
+    ],
+    "21": [
+      "auth_click3",
+      "auth_click3_click",
+      "auth_click3_find_aid"
+    ],
+    "22": [
+      "auth_send",
+      "auth_send_click",
+      "auth_send_find_aid"
+    ],
+    "23": [
+      "auth_send2",
+      "auth_send2_click_name",
+      "auth_send2_find_all"
+    ],
+    "24": [
+      "auth_ui",
+      "auth_ui_find_el",
+      "auth_ui_find_type"
+    ],
+    "25": [
+      "brute_pdf",
+      "brute_pdf_data",
+      "brute_pdf_found",
+      "brute_pdf_fs",
+      "brute_pdf_keys",
+      "brute_pdf_target",
+      "ks2",
+      "ks2_cnt",
+      "ks2_ct",
+      "ks2_data",
+      "ks2_fs",
+      "ks2_known",
+      "ks2_ks",
+      "ks2_r8",
+      "ks_derive",
+      "ks_derive_bufs",
+      "ks_derive_cfk2",
+      "ks_derive_ct",
+      "ks_derive_data",
+      "ks_derive_diff",
+      "ks_derive_fs",
+      "ks_derive_known",
+      "ks_derive_ks",
+      "ref_fs",
+      "vb_probe",
+      "vb_probe_data",
+      "vb_probe_fs",
+      "vb_probe_keya",
+      "vb_probe_variants",
+      "vb_probe_vb"
+    ],
+    "26": [
+      "inject_ptr",
+      "inject_ptr_d32",
+      "inject_ptr_rel"
+    ],
+    "27": [
+      "inject_ptr2",
+      "inject_ptr2_d32",
+      "inject_ptr2_rel"
+    ],
+    "28": [
+      "javelin_export",
+      "javelin_export_d32",
+      "javelin_export_rel"
+    ],
+    "29": [
+      "jpatch",
+      "jpatch_d32",
+      "jpatch_rel"
+    ],
+    "30": [
+      "live_patch",
+      "live_patch_i32",
+      "live_patch_rel"
+    ],
+    "31": [
+      "auth_paste",
+      "auth_paste_find_byname"
+    ],
+    "32": [
+      "auth_send3",
+      "auth_send3_click"
+    ],
+    "33": [
+      "call_native",
+      "call_native_dumpptr"
+    ],
+    "34": [
+      "call_native2",
+      "call_native2_dumpbytes"
+    ],
+    "35": [
+      "call_native3",
+      "call_native3_dumpbytes"
+    ],
+    "36": [
+      "dump_keys",
+      "dump_keys_dumpnul"
+    ],
+    "37": [
+      "ui_dump",
+      "ui_dump_walk"
+    ],
+    "38": [
+      "ui_full",
+      "ui_full_walk"
+    ],
+    "39": [
+      "cave"
+    ],
+    "40": [
+      "dllimport_all"
+    ],
+    "41": [
+      "dllimport_dump"
+    ],
+    "42": [
+      "find_drmpdk"
+    ],
+    "43": [
+      "full_auto"
+    ],
+    "44": [
+      "il_dump"
+    ],
+    "45": [
+      "mem_scan"
+    ],
+    "46": [
+      "object"
+    ],
+    "47": [
+      "open_doc"
+    ],
+    "48": [
+      "preload_dll"
+    ],
+    "49": [
+      "reflect_dump"
+    ],
+    "50": [
+      "rpm_test"
+    ],
+    "51": [
+      "test_iat"
+    ],
+    "52": [
+      "test_orig"
+    ],
+    "53": [
+      "test_patched"
+    ],
+    "54": [
+      "test_scramble"
+    ],
+    "55": [
+      "ui_menu"
+    ],
+    "56": [
+      "val_names"
+    ],
+    "57": [
+      "verify_slot"
+    ],
+    "58": [
+      "vq2"
+    ],
+    "59": [
+      "vq_test"
+    ]
+  },
+  "cohesion": {
+    "0": 0.15384615384615385,
+    "1": 1.0,
+    "2": 0.10526315789473684,
+    "3": 0.09971509971509972,
+    "4": 0.1,
+    "5": 0.11764705882352941,
+    "6": 0.13333333333333333,
+    "7": 0.14285714285714285,
+    "8": 0.16666666666666666,
+    "9": 0.16666666666666666,
+    "10": 0.16666666666666666,
+    "11": 0.2,
+    "12": 0.2,
+    "13": 0.2857142857142857,
+    "14": 0.2857142857142857,
+    "15": 0.2857142857142857,
+    "16": 0.3333333333333333,
+    "17": 0.6666666666666666,
+    "18": 0.6666666666666666,
+    "19": 0.6666666666666666,
+    "20": 0.16483516483516483,
+    "21": 0.6666666666666666,
+    "22": 0.6666666666666666,
+    "23": 1.0,
+    "24": 0.6666666666666666,
+    "25": 0.06666666666666667,
+    "26": 0.6666666666666666,
+    "27": 0.6666666666666666,
+    "28": 0.6666666666666666,
+    "29": 0.6666666666666666,
+    "30": 0.6666666666666666,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0
+  },
+  "gods": [
+    {
+      "id": "javelin_samples_harvest_main",
+      "label": "main()",
+      "degree": 6
+    },
+    {
+      "id": "javelin_samples_fill_urls",
+      "label": "urls()",
+      "degree": 5
+    },
+    {
+      "id": "javelin_samples_harvest_consider",
+      "label": "consider()",
+      "degree": 4
+    },
+    {
+      "id": "callsites_find_call_sites",
+      "label": "find_call_sites()",
+      "degree": 3
+    },
+    {
+      "id": "cnt_dump_dump_pe",
+      "label": "dump_pe()",
+      "degree": 3
+    },
+    {
+      "id": "exports_parse_exports",
+      "label": "parse_exports()",
+      "degree": 3
+    },
+    {
+      "id": "javelin_samples_fill_get",
+      "label": "get()",
+      "degree": 3
+    },
+    {
+      "id": "javelin_samples_harvest_get",
+      "label": "get()",
+      "degree": 3
+    },
+    {
+      "id": "javelin_samples_harvest_save",
+      "label": "save()",
+      "degree": 3
+    },
+    {
+      "id": "javelin_samples_harvest_collect",
+      "label": "collect()",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "dump_pe()",
+      "target": "re",
+      "source_files": [
+        "cnt_dump.py",
+        ""
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "note": "Bridges community 0 → community 3"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `dump_pe()` connect `Community 3` to `Community 0`?",
+      "why": "High betweenness centrality (0.001) - this node is a cross-community bridge."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 3` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09971509971509972 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 4` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 5` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 6` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 7` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

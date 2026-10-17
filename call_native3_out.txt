@@ -1,0 +1,87 @@
+﻿handle: 268435456
+===== CALL FUNCTIONS FIRST =====
+CALL ?Key@CPublisher@@SAPADXZ -> 0x1012EFC0
+  result : 4080280200000090900909902092210805A0000010A0000180080004400005001CB321122DEDBDDCD80DCDDEDD0111A15AACAFDA171A79F986F726B548034219
+  result : |@.(......... .!.............@.....!.-...........Z.....y...&.H.B.
+CALL ?Iv@CPublisher@@SAPADXZ -> 0x1012F020
+  result : 20100002200020EE0005004000013030400340020B000508010006070000000814231A1DDFD4D4E1A6CAAEBFA93ACACAC43C4A14E414A317279928D8893BBBB2
+  result : | ... . ....@..00@.@..............#...........:...<J.....'.(..;..
+CALL ?IvUSK@CPublisher@@SAPADXZ -> 0x10133F30
+  result : 303330DF32DD7AEF8CEFB0FFA3BB76FE00FF0E56ABB4061F0E99A6DFF0BB01BB0000000000000000000000000000000000000000000000000000000000000000
+  result : |030.2.z.......v....V............................................
+CALL KeyUSK(keycode) -> 0x10133F10
+  result : 0FB3501256ED07DC200D34DEE8015BA1ABACDEDA4D1AD5F9D0F752B53603BD19303330DF32DD7AEF8CEFB0FFA3BB76FE00FF0E56ABB4061F0E99A6DFF0BB01BB
+  result : |..P.V... .4...[.....M.....R.6...030.2.z.......v....V............
+===== DATA EXPORTS AFTER CALLS =====
+?iv0@CPublisher@@0PADA -> 0x02001020
+   : [outside module] 0x2001020
+?iv1@CPublisher@@0PADA -> 0x1D1A2314
+   : [outside module] 0x1D1A2314
+?iv2@CPublisher@@0PADA -> 0xD22A1324
+   : [outside module] 0xFFFFFFFFD22A1324
+?ivRes@CPublisher@@0PADA -> 0x1FFFBFAC
+   : [outside module] 0x1FFFBFAC
+?ivUSK@CPublisher@@0PADA -> 0xDF303330
+   : [outside module] 0xFFFFFFFFDF303330
+?key0@CPublisher@@0PADA -> 0x02288040
+   : [outside module] 0x2288040
+?key1@CPublisher@@0PADA -> 0x1221B31C
+   : [outside module] 0x1221B31C
+?key2@CPublisher@@0PADA -> 0x0AAACC44
+   : [outside module] 0xAAACC44
+?keyRes@CPublisher@@0PADA -> 0x11180111
+powershell.exe : 
+At line:1 char:129
++ ... ew($false); & "$env:WINDIR\SysWOW64\WindowsPowerShell\v1.0\powershell ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Unhandled Exception: System.AccessViolationException: Attempted to read or write protected memory. This is often an 
+indication that other memory is corrupt.
+   at System.Runtime.InteropServices.Marshal.ReadByte(IntPtr ptr, Int32 ofs)
+   at CallSite.Target(Closure , CallSite , Type , Object , Object )
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+   at System.Management.Automation.Interpreter.CompiledLoopInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.Interpreter.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.LightLambda.RunVoid1[T0](T0 arg0)
+   at System.Management.Automation.DlrScriptCommandProcessor.RunClause(Action`1 clause, Object dollarUnderbar, Object 
+inputToProcess)
+   at System.Management.Automation.DlrScriptCommandProcessor.Complete()
+   at System.Management.Automation.CommandProcessorBase.DoComplete()
+   at System.Management.Automation.Internal.PipelineProcessor.DoCompleteCore(CommandProcessorBase 
+commandRequestingUpstreamCommandsToStop)
+   at System.Management.Automation.Internal.PipelineProcessor.SynchronousExecuteEnumerate(Object input)
+   at System.Management.Automation.PipelineOps.InvokePipeline(Object input, Boolean ignoreInput, 
+CommandParameterInternal[][] pipeElements, CommandBaseAst[] pipeElementAsts, CommandRedirection[][] 
+commandRedirections, FunctionContext funcContext)
+   at System.Management.Automation.Interpreter.ActionCallInstruction`6.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.Interpreter.Run(InterpretedFrame frame)
+   at System.Management.Automation.Interpreter.LightLambda.RunVoid1[T0](T0 arg0)
+   at System.Management.Automation.DlrScriptCommandProcessor.RunClause(Action`1 clause, Object dollarUnderbar, Object 
+inputToProcess)
+   at System.Management.Automation.DlrScriptCommandProcessor.Complete()
+   at System.Management.Automation.CommandProcessorBase.DoComplete()
+   at System.Management.Automation.Internal.PipelineProcessor.DoCompleteCore(CommandProcessorBase 
+commandRequestingUpstreamCommandsToStop)
+   at System.Management.Automation.Internal.PipelineProcessor.SynchronousExecuteEnumerate(Object input)
+   at System.Management.Automation.Runspaces.LocalPipeline.InvokeHelper()
+   at System.Management.Automation.Runspaces.LocalPipeline.InvokeThreadProc()
+   at System.Management.Automation.Runspaces.PipelineThread.WorkerProc()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, 
+Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, 
+Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()

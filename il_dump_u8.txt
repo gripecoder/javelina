@@ -1,0 +1,89 @@
+﻿===== TYPE Encryption.MyEncryption =====
+  METHOD EncryptFile  maxstack=8 locals=0
+    0000172A
+  METHOD DecryptFile  maxstack=8 locals=0
+    0000172A
+  Maksimir: no body
+  METHOD GetEncryptorOLD  maxstack=4 locals=0
+    0000142A
+  METHOD GetEncryptor  maxstack=4 locals=0
+    0000142A
+  METHOD Uu5FgRZVq  maxstack=8 locals=0
+    0000142A
+  METHOD gebRbXAPJ  maxstack=8 locals=0
+    0000142A
+  METHOD XZyn1PTKb  maxstack=8 locals=0
+    0000142A
+  METHOD pTRHLNN6x  maxstack=8 locals=0
+    0000142A
+  METHOD JyVfoOPAs  maxstack=8 locals=0
+    0000142A
+  METHOD Encrypt  maxstack=8 locals=0
+    0000142A
+  METHOD EncryptUSK  maxstack=8 locals=0
+    0000142A
+  METHOD QMbay9ZwN  maxstack=8 locals=0
+    0000142A
+  METHOD GetDecryptorOLD  maxstack=4 locals=0
+    0000142A
+  METHOD GetDecryptor  maxstack=4 locals=0
+    0000142A
+  METHOD Decrypt  maxstack=6 locals=0
+    0000142A
+  METHOD 3sACDDDeG  maxstack=8 locals=0
+    0000142A
+  METHOD DecryptString  maxstack=8 locals=0
+    0000142A
+  METHOD EncryptString  maxstack=8 locals=0
+    0000142A
+  METHOD EncryptUSKString  maxstack=8 locals=0
+    0000142A
+===== TYPE Encryption.DocEncryption =====
+  METHOD GetDecryptor  maxstack=4 locals=0
+    0000142A
+  METHOD GetEncryptor  maxstack=4 locals=0
+    0000142A
+  Trnje: no body
+  METHOD Uu5FgRZVq  maxstack=5 locals=0
+    0000172A
+  FIELD gebRbXAPJ : byte[] (static=False)
+  FIELD XZyn1PTKb : byte[] (static=False)
+  FIELD pTRHLNN6x : bool (static=False)
+===== TYPE Encryption.PDKEncryption =====
+  IV: no body
+  IVUSK: no body
+  Key: no body
+  KeyUSK: no body
+  METHOD GetString  maxstack=8 locals=0
+    0000142A
+  METHOD GetData  maxstack=3 locals=0
+    0000142A
+  METHOD Encrypt  maxstack=8 locals=0
+    0000142A
+  METHOD Decrypt  maxstack=8 locals=0
+    0000142A
+  METHOD Encrypt  maxstack=8 locals=0
+    0000142A
+  METHOD Decrypt  maxstack=8 locals=0
+    0000142A
+  METHOD GenerateKey  maxstack=5 locals=0
+    0000142A
+  METHOD EncryptSplit  maxstack=6 locals=0
+    0000142A
+  METHOD DecryptSplit  maxstack=6 locals=0
+    0000142A
+  METHOD Encrypt  maxstack=8 locals=0
+    0000142A
+  METHOD Decrypt  maxstack=8 locals=0
+    0000142A
+  FIELD Uu5FgRZVq : System.Security.Cryptography.RijndaelManaged (static=False)
+===== TYPE Encryption.NewEncryption =====
+  METHOD GenerateKey  maxstack=5 locals=0
+    0000172A
+  METHOD GetEncryptor  maxstack=4 locals=0
+    0000142A
+  METHOD GetDecryptor  maxstack=4 locals=0
+    0000142A
+  FIELD Uu5FgRZVq : byte[] (static=False)
+  FIELD gebRbXAPJ : byte[] (static=False)
+  FIELD XZyn1PTKb : bool (static=False)
